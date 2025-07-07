@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://nelsu13.github.io/rpg-1",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
   },
   "dependencies": {
     "cors": "^2.8.5",
