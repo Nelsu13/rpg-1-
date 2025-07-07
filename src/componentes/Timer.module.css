@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fundo);
+    
+}
+
+.texto{
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--texto);
+}

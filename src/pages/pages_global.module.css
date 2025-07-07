@@ -1,0 +1,101 @@
+.container {
+    padding: 20px;
+    background-color: var(--fundo);
+    display:grid;
+    grid-template-areas: "imagem texto"
+                        "titulo titulo"
+                        "content content";
+}
+
+.texto{
+    grid-area: texto;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: var(--texto);
+    background-color: var(--fundo);
+    justify-content: center;
+}
+
+.form {
+    grid-area: content;
+    background-color: var(--fundo);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.imagem {
+    grid-area: imagem;
+    width: 25%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.pergunta {
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--texto);
+}
+
+.resposta {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+.button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #64bf54;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+}
+
+.dicabutton {
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--texto);
+}
+
+.dica{
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: var(--texto);
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    grid-area: titulo;
+    font-family: 'Silkscreen', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--texto);
+    background-color: var(--fundo);
+}
