@@ -1,0 +1,3 @@
+[submodule "rpg"]
+    path = rpg
+    url = <REPO_URL_DO_SUBMODULO>
