@@ -2,7 +2,7 @@
   "name": "rpg-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nelsu13.github.io/rpg-1",
+  "homepage": "https://nelsu13.github.io/rpg-1/",
   "scripts": {
     "start": "react-scripts start",
   "build": "react-scripts build",
