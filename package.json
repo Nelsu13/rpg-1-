@@ -1,8 +1,8 @@
 {
-  "name": "login-app",
+  "name": "rpg-1",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://nelsu13.github.io/rpg-1",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
